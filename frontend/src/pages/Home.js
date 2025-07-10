@@ -237,8 +237,8 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <div className="mb-8">
-              <div className="inline-flex items-center justify-center p-4 rounded-full bg-gradient-to-br from-gold-400 to-orange-500 mb-6 animate-float">
-                <Dove className="w-10 h-10 text-white" />
+              <div className="inline-flex items-center justify-center p-4 rounded-full glass-effect mb-6 animate-float">
+                <Star className="w-10 h-10 text-white" />
               </div>
             </div>
             <h2 className="text-4xl font-bold text-gray-800 mb-8 text-gradient">
