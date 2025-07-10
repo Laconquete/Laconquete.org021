@@ -122,15 +122,6 @@ const Home = () => {
           animate="animate"
           variants={staggerChildren}
         >
-          <motion.div 
-            className="mb-8"
-            variants={fadeInUp}
-          >
-            <div className="inline-flex items-center justify-center p-4 rounded-full glass-effect mb-6 shadow-lg">
-              <Star className="w-12 h-12 text-white" />
-            </div>
-          </motion.div>
-
           <motion.h1 
             className="text-6xl md:text-8xl font-bold mb-6 hero-title text-shadow"
             variants={fadeInUp}
