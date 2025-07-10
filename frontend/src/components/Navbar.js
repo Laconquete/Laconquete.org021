@@ -31,14 +31,14 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          {/* Logo Direct sans cercle */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative">
-              {/* Logo SVG intégré */}
+              {/* Logo SVG directement */}
               <div className="w-12 h-12 relative transform group-hover:scale-110 transition-transform duration-300">
                 <svg viewBox="0 0 100 100" className="w-full h-full">
-                  {/* Cercle principal bleu */}
-                  <circle cx="50" cy="50" r="45" fill="url(#blueGradient)" stroke="#1e40af" strokeWidth="2"/>
+                  {/* Cercle principal bleu foncé */}
+                  <circle cx="50" cy="50" r="45" fill="url(#darkBlueGradient)" stroke="#1e3a8a" strokeWidth="2"/>
                   
                   {/* Cercle intérieur rouge */}
                   <circle cx="50" cy="50" r="30" fill="url(#redGradient)"/>
@@ -56,13 +56,13 @@ const Navbar = () => {
                   
                   {/* Gradients */}
                   <defs>
-                    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#3b82f6"/>
-                      <stop offset="100%" stopColor="#1e40af"/>
+                    <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#1e3a8a"/>
+                      <stop offset="100%" stopColor="#0f172a"/>
                     </linearGradient>
                     <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#ef4444"/>
-                      <stop offset="100%" stopColor="#dc2626"/>
+                      <stop offset="0%" stopColor="#dc2626"/>
+                      <stop offset="100%" stopColor="#991b1b"/>
                     </linearGradient>
                   </defs>
                 </svg>
@@ -70,7 +70,7 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:block">
               <div className={`transition-colors duration-300 ${
-                scrolled ? "text-blue-600" : "text-white"
+                scrolled ? "text-slate-800" : "text-white"
               }`}>
                 <span className="font-bold text-lg">Église Évangélique</span>
                 <div className="text-sm font-semibold opacity-90">La Conquête</div>
