@@ -19,8 +19,7 @@ const Navbar = () => {
   const navigation = [
     { name: "Accueil", href: "/" },
     { name: "À Propos", href: "/about" },
-    { name: "Activités", href: "/activities" },
-    { name: "Départements", href: "/departments" },
+    { name: "Activités & Départements", href: "/activities" },
     { name: "Médias", href: "/media" },
     { name: "Faire un Don", href: "/donate" },
     { name: "Contact", href: "/contact" },
