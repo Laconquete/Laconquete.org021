@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, Heart, Users, BookOpen, Calendar, Cross, Dove, Star, Crown, Shield } from "lucide-react";
+import { ArrowRight, Heart, Users, BookOpen, Calendar, Cross, Crown, Star } from "lucide-react";
 
 const Home = () => {
   // Animation variants
