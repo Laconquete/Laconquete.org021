@@ -47,11 +47,11 @@ const Home = () => {
     }
   ];
 
-  // Décoration icônes pour l'atmosphère
+  // Décoration icônes pour l'atmosphère  
   const decorativeIcons = [
     { Icon: Cross, position: "top-10 left-10", delay: 0 },
-    { Icon: Dove, position: "top-20 right-20", delay: 0.5 },
-    { Icon: Star, position: "bottom-20 left-20", delay: 1 },
+    { Icon: Star, position: "top-20 right-20", delay: 0.5 },
+    { Icon: Heart, position: "bottom-20 left-20", delay: 1 },
     { Icon: Crown, position: "bottom-10 right-10", delay: 1.5 },
   ];
 
