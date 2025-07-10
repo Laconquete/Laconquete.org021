@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // Pages
-import Home from "./pages/Home";
+import Home from "./pages/HomeSimple";
 import About from "./pages/About";
 import Activities from "./pages/Activities";
 import Departments from "./pages/Departments";
