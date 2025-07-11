@@ -73,7 +73,7 @@ const Navbar = () => {
                 scrolled ? "text-slate-800" : "text-white"
               }`}>
                 <span className="font-bold text-lg">Église Évangélique</span>
-                <div className="text-sm font-semibold opacity-90">La Conquête</div>
+                <div className="text-sm font-bold uppercase opacity-90">LA CONQUÊTE</div>
               </div>
             </div>
           </Link>
